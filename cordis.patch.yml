@@ -1,0 +1,6 @@
+# novel-craft bundle patch
+# 第一行是自注册行：loader 按包名解析到 package.json#main（lib/index.js），由它注册技能。
+# 删掉这一行技能就不会加载（同类插件 v18.0.0 的实测事故）。
+- insert:
+    - id: novel-craft
+      name: novel-craft
