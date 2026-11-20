@@ -23,6 +23,11 @@
     "node": ">=20"
   },
   "author": "sunlaoshi-123",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sunlaoshi-123/novel-craft-dsh.git"
