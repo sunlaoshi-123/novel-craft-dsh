@@ -1,6 +1,52 @@
 {
   "name": "novel-craft",
   "version": "1.7.3",
+  "description": "长篇小说创作技能包：开书立项、骨架搭建、格位与容量核算、时间线与结构量具、逐章自检、改稿核账。含 17 份细则与 5 个本地自检脚本。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "skill",
+    "novel",
+    "writing",
+    "小说",
+    "创作"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "sunlaoshi-123",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunlaoshi-123/novel-craft-dsh.git"
+  },
+  "homepage": "https://github.com/sunlaoshi-123/novel-craft-dsh#readme",
+  "bugs": {
+    "url": "https://github.com/sunlaoshi-123/novel-craft-dsh/issues"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "LICENSE",
+    "README.md"
+  ]
+}
+{
+  "name": "novel-craft",
+  "version": "1.7.3",
   "description": "长篇小说创作技能包：开书立项、骨架搭建、格位与容量核算、时间线与结构量具、逐章自检、改稿核账。含 18 份细则与 5 个本地自检脚本。",
   "type": "module",
   "main": "lib/index.js",
